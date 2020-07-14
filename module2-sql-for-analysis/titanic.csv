@@ -27,7 +27,7 @@ Survived,Pclass,Name,Sex,Age,Siblings/Spouses Aboard,Parents/Children Aboard,Far
 1,3,Mrs. Carl Oscar (Selma Augusta Emilia Johansson) Asplund,female,38,1,5,31.3875
 0,3,Mr. Farred Chehab Emir,male,26,0,0,7.225
 0,1,Mr. Charles Alexander Fortune,male,19,3,2,263
-1,3,Miss. Ellen O'Dwyer,female,24,0,0,7.8792
+1,3,Miss. Ellen O Dwyer,female,24,0,0,7.8792
 0,3,Mr. Lalio Todoroff,male,23,0,0,7.8958
 0,1,Don. Manuel E Uruchurtu,male,40,0,0,27.7208
 1,1,Mrs. William Augustus (Marie Eugenie) Spencer,female,48,1,0,146.5208
@@ -45,7 +45,7 @@ Survived,Pclass,Name,Sex,Age,Siblings/Spouses Aboard,Parents/Children Aboard,Far
 1,3,Miss. Margaret Delia Devaney,female,19,0,0,7.8792
 0,3,Mr. William John Rogers,male,30,0,0,8.05
 0,3,Mr. Denis Lennon,male,20,1,0,15.5
-1,3,Miss. Bridget O'Driscoll,female,27,0,0,7.75
+1,3,Miss. Bridget O Driscoll,female,27,0,0,7.75
 0,3,Mr. Youssef Samaan,male,16,2,0,21.6792
 0,3,Mrs. Josef (Josefine Franchi) Arnold-Franchi,female,18,1,0,17.8
 0,3,Master. Juha Niilo Panula,male,7,4,1,39.6875
