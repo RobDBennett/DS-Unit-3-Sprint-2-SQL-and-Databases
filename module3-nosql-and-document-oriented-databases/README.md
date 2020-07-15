@@ -50,3 +50,7 @@ into your MongoDB cluster.
 Push MongoDB - it is flexible and can support fast iteration. Design your own
 database to save some key/value pairs for an application you'd like to work on
 or data you'd like to analyze, and build it out as much as you can!
+
+
+client = pymongo.MongoClient("mongodb+srv://RobDBennett:6f6xJlAeZAswx7cV@cluster0.cuiyy.mongodb.net/<dbname>?retryWrites=true&w=majority")
+db = client.test
