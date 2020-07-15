@@ -2,6 +2,20 @@
 
 """Assignment notes=
 Put the RPG data into Mongo!
+
+Assignment Question= 
+"How was working with MongoDB different from working with
+PostgreSQL? What was easier, and what was harder?"
+
+Answer= 
+I don't think it was any easier or harder; it balanced out.
+For instance, I think it's easier to make a mistake in mongo.
+The lack of error messages feels real dangerous to me. And the fact
+that you can save anything to it without issue is both a benefit and
+a bane, since there aren't checks/balances to it.
+Not having to build a table first is nice, except that I like the 
+structure of a table, so not having it there is actually a bit disorienting.
+I'd call it a wash- its just different.
 """
 import pandas as pd
 import pymongo
