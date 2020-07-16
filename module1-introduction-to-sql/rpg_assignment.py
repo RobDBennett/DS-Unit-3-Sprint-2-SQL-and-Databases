@@ -53,6 +53,19 @@ for _ in x:
     print("Character", _ + 1, "has ", curs.execute(char_items).fetchall()[_][0], "items and", 
     curs.execute(char_weapons).fetchall()[_][0], "weapons.")
 
+#Alternate query for averages:
+
+"""
+SELECT AVG(num_items) FROM
+(SELECT cc.character_id, COUNT(DISTINCT ai.item_id) AS num_items
+FROM charactercreator_character AS cc,
+charactercreator_character_inventory AS cci,
+armory_item AS ai
+WHERE cc.character_id = cci.character_id
+AND ai.item_id = cci.item_id
+GROUP BY 1);
+"""
+
 y = range(0,302)
 test = range(0,155)
 item_count = 0

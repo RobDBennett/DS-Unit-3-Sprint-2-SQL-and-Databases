@@ -31,6 +31,7 @@ client = pymongo.MongoClient("mongodb+srv://RobDBennett:6f6xJlAeZAswx7cV@cluster
 db = client.test
 
 
+
 for char in characters:
     rpg_char = {
         'character_id': char[0],
