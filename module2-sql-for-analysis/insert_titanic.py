@@ -20,14 +20,11 @@ conn = sqlite3.connect('titanic.sqlite3')
 curs = conn.cursor()
 df.to_sql('titanic', conn)
 
-sl_conn = sqlite3.connect('titanic.sqlite3')
-sl_curs = sl_conn.cursor()
-
 get_titanic = 'SELECT * FROM titanic;'
-passangers = sl_curs.execute(get_titanic).fetchall()
+passangers = curs.execute(get_titanic).fetchall()
 
 dbname = 'lzczcioo'
-user = 'lzczcioo'  # ElephantSQL chooses to reuse dbname and username
+user = 'lzczcioo'
 password = 'SKXlgDub9VjsNCooGYnndDogc-AgP_F_'
 host = 'ruby.db.elephantsql.com'
 
