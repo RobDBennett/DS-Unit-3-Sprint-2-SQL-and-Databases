@@ -19,7 +19,7 @@ INSERT INTO demo
 (s, x, y)
 VALUES ('g', 3, 9);
 """
-insert_v= """
+insert_v = """
 INSERT INTO demo
 (s, x, y)
 VALUES ('v', 5, 7);
@@ -39,8 +39,9 @@ count_rows = 'SELECT COUNT (*) FROM demo;'
 print("There are", curs.execute(count_rows).fetchall()[0][0], " rows.")
 
 query2 = 'SELECT COUNT (*) FROM demo WHERE x >= 5 AND y >= 5;'
-print("There are", curs.execute(query2).fetchall()[0][0], " rows where and X and Y are at least 5.")
+print("There are", curs.execute(query2).fetchall()[
+      0][0], " rows where and X and Y are at least 5.")
 
 query3 = 'SELECT COUNT(DISTINCT y) FROM demo;'
-print("There are", curs.execute(query3).fetchall()[0][0], " unique values of y.")
-
+print("There are", curs.execute(query3).fetchall()
+      [0][0], " unique values of y.")
