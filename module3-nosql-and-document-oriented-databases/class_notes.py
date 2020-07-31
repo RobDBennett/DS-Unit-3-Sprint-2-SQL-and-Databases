@@ -27,7 +27,7 @@ curs = conn.cursor()
 get_rpg = 'SELECT * FROM charactercreator_character;'
 characters = curs.execute(get_rpg).fetchall()
 
-client = pymongo.MongoClient("mongodb+srv://RobDBennett:6f6xJlAeZAswx7cV@cluster0.cuiyy.mongodb.net/test?retryWrites=true&w=majority")
+client = pymongo.MongoClient("<REDACTED")
 db = client.test
 
 
